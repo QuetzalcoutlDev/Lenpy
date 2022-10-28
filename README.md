@@ -5,15 +5,15 @@ Simplifies certain tasks when creating a game with Pygame
 
  - [GitHub](https://github.com/QuetzalcoutlDev/Lenpy)
 
-![](https://github.com/QuetzalcoutlDev/Lenpy/main/art/logo.png?raw=true)
+![](https://github.com/QuetzalcoutlDev/Lenpy/blob/main/art/logo.png?raw=true)
 
 Len'Py is a module for the Python programming language that allows you to simplify certain tasks when creating a game with Pygame.
 It also contains some useful tools for you to create a good game with Pygame.
 
-# Characteristic
+# Characteristics
 
 - Compatibility with XML Sprites made in Adobe Flash CS6 onwards
--Data Manager
+- Data Manager
 - Some small tools (4 digit count, define animation of multiple images, create a directory with only one line of code)
 - Draw a text on the screen in a slightly easier way
 - TextButtons
@@ -24,10 +24,17 @@ Although I must say that the most powerful features that Len'Py has are the XML 
 
 ## Requirements
 
- -Python 3.7+
- -Pygame 2.0.1+
+-Python 3.7+
+-Pygame 2.0.1+
 
 ## How to install
+
+Run this command in a command prompt:
+
+```
+pip install lenpy
+```
+
 
 You can also install Len'Py by downloading the source code and running the following command in the console:
 
@@ -63,14 +70,14 @@ I'm not programming Len'Py to get something out of it, in fact it's just to lear
 If you want you can buy me a coffee or follow me on the networks that I leave below
 Kofi: https://www.ko-fi.com/quetzalcoutl
 
-# follow me
+# Follow me
 
-Twitter: https://twitter.com/ElQuetzalcoutl
-Instagram: https://www.instagram.com/quetzalcoutldev/
-My other networks: https://allmylinks.com/elquetzalcoutl
+1. Twitter: https://twitter.com/ElQuetzalcoutl
+2. Instagram: https://www.instagram.com/quetzalcoutldev/
+3. My other networks: https://allmylinks.com/elquetzalcoutl
 
 # My other projects
 
 1. Lonely Imagination (DDLC inspired VN) :https://quetzalcoutl.itch.io/Alone
-2.FNF mods: https://gamebanana.com/members/2176391
+2. FNF mods: https://gamebanana.com/members/2176391
 3. LMMS projects: https://lmms.io/lsp/?action=browse&user=QuetzalcoultDev
