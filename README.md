@@ -18,7 +18,7 @@ It also contains some useful tools for you to create a good game with Pygame.
 - Draw a text on the screen in a slightly easier way
 - TextButtons
 
-Perhaps Len'Py is not as complete a module as Pygame_gui(Created by @MyreMylar), but it will help you, as it is updated it will have more features and improve the ones it already has, and you can even propose or add your own.
+Perhaps Len'Py is not as complete a module as Pygame_gui, but it will help you, as it is updated it will have more features and improve the ones it already has, and you can even propose or add your own.
 But keep in mind that Len'Py is the only module with XML Sprites support (As far as I know)
 Although I must say that the most powerful features that Len'Py has are the XML Sprites and the Data Manager.
 
