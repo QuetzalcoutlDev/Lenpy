@@ -4,6 +4,7 @@
 Simplifies certain tasks when creating a game with Pygame
 
  - [GitHub](https://github.com/QuetzalcoutlDev/Lenpy)
+ - [Pypi](https://pypi.org/project/Lenpy/)
 
 ![](https://github.com/QuetzalcoutlDev/Lenpy/blob/main/art/logo.png?raw=true)
 
@@ -12,11 +13,12 @@ It also contains some useful tools for you to create a good game with Pygame.
 
 # Characteristics
 
-- Compatibility with XML Sprites made in Adobe Flash CS6 onwards
+- Compatibility with XML Sprites(Spritesheets) made in Adobe Flash CS6 onwards
 - Data Manager
 - Some small tools (4 digit count, define animation of multiple images, create a directory with only one line of code)
 - Draw a text on the screen in a slightly easier way
-- TextButtons
+- TextButtons, ImageButtons
+- FPS Counter tool
 
 Perhaps Len'Py is not as complete a module as Pygame_gui, but it will help you, as it is updated it will have more features and improve the ones it already has, and you can even propose or add your own.
 But keep in mind that Len'Py is the only module with XML Sprites support (As far as I know)
@@ -24,17 +26,17 @@ Although I must say that the most powerful features that Len'Py has are the XML 
 
 ## Requirements
 
--Python 3.7+
--Pygame 2.0.1+
+- Python 3.7+
+- Pygame 2.0.1+
 
 ## How to install
+
 
 Run this command in a command prompt:
 
 ```
 pip install lenpy
 ```
-
 
 You can also install Len'Py by downloading the source code and running the following command in the console:
 
@@ -70,11 +72,11 @@ I'm not programming Len'Py to get something out of it, in fact it's just to lear
 If you want you can buy me a coffee or follow me on the networks that I leave below
 Kofi: https://www.ko-fi.com/quetzalcoutl
 
-# Follow me
+# follow me
 
-1. Twitter: https://twitter.com/ElQuetzalcoutl
-2. Instagram: https://www.instagram.com/quetzalcoutldev/
-3. My other networks: https://allmylinks.com/elquetzalcoutl
+Twitter: https://twitter.com/ElQuetzalcoutl
+Instagram: https://www.instagram.com/quetzalcoutldev/
+My other networks: https://allmylinks.com/elquetzalcoutl
 
 # My other projects
 

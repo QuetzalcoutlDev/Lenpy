@@ -5,7 +5,11 @@ include examples/button_example/*.png
 
 include examples/fonts/*.ttf
 
-include examples/multiple_images_example
+include examples/multiple_images_example/idle/*.png
+include examples/multiple_images_example/down/*.png
+include examples/multiple_images_example/up/*.png
+include examples/multiple_images_example/right/*.png
+include examples/multiple_images_example/left/*.png
 
 include examples/xml_sprite_example/*.fla
 include examples/xml_sprite_example/*.xml

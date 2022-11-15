@@ -6,7 +6,7 @@ from . import spritesheet
 from . import tools
 from . import config
 from . import data
-from .ui import TextButton as textbutton
+from . import ui
 from . import version
 
 
@@ -17,5 +17,5 @@ __all__ = ["Text",
 		  "tools",
 		  "data",
 		  "config",
-		  "textbutton",
+		  "ui",
 		  "version"]

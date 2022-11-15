@@ -2,10 +2,14 @@
 import pygame
 import os
 
+from lenpy.text import Text
+from lenpy.config import clock
+
 pygame.init()
 
+
 # Hay una forma más sencilla de hacer un conteo de 4 digitos?
-# Esta clase permite un conteo de 4 digitos, usando la función Count()
+# Esta clase permite un conteo de 4 digitos, usando el metodo Count()
 
 class numbers_Count():
 
@@ -56,9 +60,11 @@ class numbers_Count():
 #   print(numbers)
 
 
-# Una forma de definir animaciones de multiples imagenes, pero por ahora solo permite imagenes cuyo nombre contiene 4 digitos.
 
-def define_animations(frames_amount, d, dir_name, name, anim_name):
+
+## Una forma de definir animaciones de multiples imagenes, pero por ahora solo permite imagenes cuyo nombre contiene 4 digitos.
+
+def define_animations(frames_amount, d, dir_name, name, anim_name, antialising=True):
 
     # Al exportar una secuencia de imagenes en Adobe Flash o Animate, la secuencia de imagenes tiene el nombre y 4 digitos
     
@@ -82,16 +88,51 @@ def define_animations(frames_amount, d, dir_name, name, anim_name):
 
         # Carga la imagen
         image = pygame.image.load(f"{d}\\{dir_name}\\{name}\\{anim_name}{numbers}.png").convert_alpha()
-        img = pygame.transform.scale(image, (image.get_width(), image.get_height()))
+
+        if antialising:
+            
+            img = pygame.transform.smoothcale(image, (image.get_width(), image.get_height()))
+        else:
+            
+            img = pygame.transform.scale(image, (image.get_width(), image.get_height()))
                    
         temp_list.append(img)
 
     return temp_list
 
-# Crea un directorio de una forma más sencilla, aunque creo que ya es sencilla la forma de crearlos, no?
+
+
+
+## Crea un directorio de una forma más sencilla, aunque creo que ya es sencilla la forma de crearlos, no?
 
 def make_dir(d:str, name:str):
 
     if name and d:
         
         os.makedirs(d + "/" + name, exist_ok=True)
+
+
+
+
+## Muestra en pantalla la cantidad de FPS
+
+class FPS_counter():
+    
+    def __init__(self, surface, x:int, y:int, color:str, font:str, font_size:int):
+        
+        self.surface = surface
+        self.x = x
+        self.y = y
+        self.color = color
+        self.font = font
+        self.font_size = font_size
+        
+    def display_fps(self, visible=True):
+
+        # Obtiene los FPS
+        get_fps = str(int(clock.get_fps()))
+        
+        text_fps = Text("FPS: " + get_fps, self.font, self.font_size, None, self.color, sysfont=True)
+        
+        if visible:
+            text_fps.draw(self.surface, self.x, self.y)

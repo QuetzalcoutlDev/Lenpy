@@ -133,10 +133,15 @@ class SpriteSheet():
                 if repeat == False:
                     self.not_repeat = True
 
-    def draw(self, surface, x, y, scale=1.0):
+    def draw(self, surface, x, y, scale=1.0, antialiasing=True):
 
-        img_ok = pygame.transform.scale(self.img, (self.img.get_width() * scale, self.img.get_height() * scale))
-
+        if antialiasing:
+            
+            img_ok = pygame.transform.smoothscale(self.img, (self.img.get_width() * scale, self.img.get_height() * scale))
+        else:
+            
+            img_ok = pygame.transform.scale(self.img, (self.img.get_width() * scale, self.img.get_height() * scale))
+        
         # Obtiene el rectangulo de la imagen
         self.rect = img_ok.get_rect()
 
