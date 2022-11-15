@@ -16,6 +16,8 @@ screen = lenpy.config.set_display(screen_size)
 
 pygame.display.set_caption("Test Ball SpriteSheet XML")
 
+FPS_counter = lenpy.tools.FPS_counter(screen, 4, 3, "#000000", "arial", 14)
+
 class Ball():
     
     def __init__(self, x, y):
@@ -184,6 +186,8 @@ while True:
 
     # Actualiza los fotogramas de la pelota
     ball.update()
+
+    FPS_counter.display_fps()
 
     pygame.display.flip()
     lenpy.config.clock.tick(60)

@@ -24,7 +24,7 @@ source_dir = os.path.split(os.path.abspath(__file__))[0]
 # Almacena los textos a mostrar en una variable
 text_a = lenpy.Text("Hola Mundo!!!", "arial.ttf", 24, f"{source_dir}\\fonts\\", BLACK, sysfont=False)
 text_b = lenpy.Text("Hola Mundo!!!", "comic sans", 24, None, RED, sysfont=True)
-text_c = lenpy.Text("Hola Mundo!!!", "serif", 24, None, GREEN, sysfont=True)
+text_c = lenpy.Text("Hola Mundo!!!", "arial", 24, None, GREEN, sysfont=True)
 
 i = 100
 
