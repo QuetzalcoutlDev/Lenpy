@@ -21,6 +21,13 @@ class Manager:
 
             # Crea el directorio en donde se guardara la data
             tools.make_dir(os.environ["APPDATA"], self.folder_name)
+
+        elif system.linux:
+
+            self.folder = os.environ["HOME"] + "/." + self.folder_name + "/"
+
+            # Crea el directorio en HOME, alli se guardara la data
+            tools.make_dir(os.environ["HOME"], "." + self.folder_name)
         
     def Save(self, data, name):
         

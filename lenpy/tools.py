@@ -50,7 +50,6 @@ class numbers_Count():
 
         return numbers
 
-
 # num = numbers_Count(0, 0, 0, 0)
 
 # for i in range(10):
@@ -58,8 +57,6 @@ class numbers_Count():
 #   numbers = num.count()
 #   num.d += 1
 #   print(numbers)
-
-
 
 
 ## Una forma de definir animaciones de multiples imagenes, pero por ahora solo permite imagenes cuyo nombre contiene 4 digitos.
@@ -87,7 +84,7 @@ def define_animations(frames_amount, d, dir_name, name, anim_name, antialising=T
             num.d += 1
 
         # Carga la imagen
-        image = pygame.image.load(f"{d}\\{dir_name}\\{name}\\{anim_name}{numbers}.png").convert_alpha()
+        image = pygame.image.load(f"{d}/{dir_name}/{name}/{anim_name}{numbers}.png").convert_alpha()
 
         if antialising:
             
@@ -101,8 +98,6 @@ def define_animations(frames_amount, d, dir_name, name, anim_name, antialising=T
     return temp_list
 
 
-
-
 ## Crea un directorio de una forma más sencilla, aunque creo que ya es sencilla la forma de crearlos, no?
 
 def make_dir(d:str, name:str):
@@ -112,13 +107,11 @@ def make_dir(d:str, name:str):
         os.makedirs(d + "/" + name, exist_ok=True)
 
 
-
-
 ## Muestra en pantalla la cantidad de FPS
 
 class FPS_counter():
     
-    def __init__(self, surface, x:int, y:int, color:str, font:str, font_size:int):
+    def __init__(self, surface, x:int, y:int, color:str, font:str, font_size:int, font_dir=None):
         
         self.surface = surface
         self.x = x
@@ -126,13 +119,21 @@ class FPS_counter():
         self.color = color
         self.font = font
         self.font_size = font_size
+        self.font_dir = font_dir
         
     def display_fps(self, visible=True):
 
         # Obtiene los FPS
         get_fps = str(int(clock.get_fps()))
+
+        if not self.font_dir == None and "." in self.font:
         
-        text_fps = Text("FPS: " + get_fps, self.font, self.font_size, None, self.color, sysfont=True)
+            text_fps = Text("FPS: " + get_fps, self.font, self.font_size, self.font_dir, self.color, sysfont=False)
+
+        else:
+        
+            text_fps = Text("FPS: " + get_fps, self.font, self.font_size, None, self.color, sysfont=True)
+        
         
         if visible:
             text_fps.draw(self.surface, self.x, self.y)

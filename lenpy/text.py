@@ -33,12 +33,11 @@ class Text():
 
             if self.font_dir:
                 
-                self.font = pygame.font.Font(f"{self.font_dir}\\{self.font_name}", self.size)
+                self.font = pygame.font.Font(f"{self.font_dir}/{self.font_name}", self.size)
 
         else:
 
             self.font = pygame.font.SysFont(self.font_name, self.size)
-
 
     def draw(self, surface, x:int, y:int):
 

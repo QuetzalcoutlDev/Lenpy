@@ -19,3 +19,6 @@ __all__ = ["Text",
 		  "config",
 		  "ui",
 		  "version"]
+
+
+print(f"Lenpy {version.version_string}")

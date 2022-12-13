@@ -5,6 +5,7 @@ Simplifies certain tasks when creating a game with Pygame
 
  - [GitHub](https://github.com/QuetzalcoutlDev/Lenpy)
  - [Pypi](https://pypi.org/project/Lenpy/)
+ - [itch.io](https://quetzalcoutl.itch.io/lenpy)
 
 ![](https://github.com/QuetzalcoutlDev/Lenpy/blob/main/art/logo.png?raw=true)
 
@@ -58,7 +59,7 @@ Currently I haven't written a documentation, because I'm a bit new compared to o
 
 # On what systems can I use Len'Py?
 
-Len'Py is mostly only compatible with Microsoft Windows for now (Due to the points I explain below), but I can say that all features except Data Manager are compatible with Linux and Mac.
+Len'Py is compatible with Microsoft Windows and Linux for now (Due to the points I explain below), but I can say that all features except Data Manager are compatible with Mac.
 
 # Why Len'Py?
 
@@ -66,8 +67,6 @@ Len'Py is an abbreviation for Length-Pygame, which can stand for the length of w
 Len'Py I did it to share something to the Pygame community, so that people trust it more, and because I'm doing a project with Pygame and I don't want the XML sprites feature to be only mine or the project's but were everyone.
 
 # Back me up
-
-I'm not programming Len'Py to get something out of it, in fact it's just to learn, but you don't know how difficult it is to do something like this on a PC with only 2GB of RAM and a very old processor, not to mention 256MB of graphic memory, I don't mind doing it like this but with a few words of motivation it will suffice. :’)
 
 If you want you can buy me a coffee or follow me on the networks that I leave below
 Kofi: https://www.ko-fi.com/quetzalcoutl

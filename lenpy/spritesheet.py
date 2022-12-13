@@ -63,6 +63,10 @@ class SpriteSheet():
         # Retorna la imagen pero con su respectivo recorte, es decir sin mostrar toda la imagen
         return self.spritesheet.subsurface(pygame.Rect(x, y, w, h))
 
+    def get_rect(self):
+
+        return self.img.get_rect()
+
     def get_image_name(self, name):
 
         # Esta ajustada?
