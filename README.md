@@ -4,7 +4,6 @@
 Simplifies certain tasks when creating a game with Pygame
 
  - [GitHub](https://github.com/QuetzalcoutlDev/Lenpy)
- - [Pypi](https://pypi.org/project/Lenpy/)
  - [itch.io](https://quetzalcoutl.itch.io/lenpy)
 
 ![](https://github.com/QuetzalcoutlDev/Lenpy/blob/main/art/logo.png?raw=true)
@@ -32,26 +31,9 @@ Although I must say that the most powerful features that Len'Py has are the XML 
 
 ## How to install
 
+You can install this module by downloading the source code
 
-Run this command in a command prompt:
-
-```
-pip install lenpy
-```
-
-You can also install Len'Py by downloading the source code and running the following command in the console:
-
-```
-python setup.py install
-```
-
-In some Linux distributions (and I think in the current ones) to install it, this command is enough:
-
-```
-python3 setup.py install
-```
-
-If you already have Pygame installed, during the installation it should not throw any error, if so, remember to report it.
+There are currently no plans to continue with this project or keep it on PyPi, to be installed via pip
 
 # How to use Len'Py?
 
