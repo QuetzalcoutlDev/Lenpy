@@ -58,9 +58,3 @@ Kofi: https://www.ko-fi.com/quetzalcoutl
 Twitter: https://twitter.com/ElQuetzalcoutl
 Instagram: https://www.instagram.com/quetzalcoutldev/
 My other networks: https://allmylinks.com/elquetzalcoutl
-
-# My other projects
-
-1. Lonely Imagination (DDLC inspired VN) :https://quetzalcoutl.itch.io/Alone
-2. FNF mods: https://gamebanana.com/members/2176391
-3. LMMS projects: https://lmms.io/lsp/?action=browse&user=QuetzalcoultDev
