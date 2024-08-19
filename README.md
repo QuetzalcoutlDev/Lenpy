@@ -57,4 +57,3 @@ Kofi: https://www.ko-fi.com/quetzalcoutl
 
 Twitter: https://twitter.com/ElQuetzalcoutl
 Instagram: https://www.instagram.com/quetzalcoutldev/
-My other networks: https://allmylinks.com/elquetzalcoutl
