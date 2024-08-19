@@ -3,9 +3,6 @@
 
 Simplifies certain tasks when creating a game with Pygame
 
- - [GitHub](https://github.com/QuetzalcoutlDev/Lenpy)
- - [itch.io](https://quetzalcoutl.itch.io/lenpy)
-
 ![](https://github.com/QuetzalcoutlDev/Lenpy/blob/main/art/logo.png?raw=true)
 
 Len'Py is a module for the Python programming language that allows you to simplify certain tasks when creating a game with Pygame.
@@ -56,4 +53,3 @@ Kofi: https://www.ko-fi.com/quetzalcoutl
 # follow me
 
 Twitter: https://twitter.com/ElQuetzalcoutl
-Instagram: https://www.instagram.com/quetzalcoutldev/
